@@ -38,3 +38,50 @@
     
     
 }
+
+
+/*------------------------------------
+            Media Query
+------------------------------------ */
+
+@media only screen and (max-width:688px)
+{
+    
+
+.form-center2{
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.input-form{
+  
+   padding-left: 5px;
+   padding-bottom: 5px;
+   border: 1px solid #31c75e;
+   border-radius: 3px;
+    
+   
+    
+}
+.input-feild{
+    height: 40px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #31c75e;
+    border-radius: 3px;
+   
+}
+
+.button-form{
+    height: 40px;
+    width: 208px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #31c75e;
+    background-color: #31c75e;
+    
+    
+}
+}
