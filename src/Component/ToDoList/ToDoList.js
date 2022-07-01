@@ -9,6 +9,7 @@ const ToDoList = () => {
 
 
     const [project, setproject] = useState([]);
+    const [disabled, setDisabled] = useState(true)
 
     const navigate = useNavigate();
     useEffect(() => {
@@ -47,9 +48,13 @@ const ToDoList = () => {
         navigate(`task/${id1}`)
     }
 
+    const checkboxClick=()=>{
+        setDisabled(false);
+    }
+
     return (
         <div style={{minHeight:'100vh'}}>
-             <div class="row row-cols-1 row-cols-md-3 g-4">
+             <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
   
             
   {
@@ -63,8 +68,11 @@ const ToDoList = () => {
          <p class="card-text"><span style={{fontWeight:'bolder'}}>Description: </span>{project1.description}</p>
          <p class="card-text"><span style={{fontWeight:'bolder'}}>Quality: </span>{project1.quantity}</p>
          <p class="card-text"><span style={{fontWeight:'bolder'}}>Owner Name: </span>{project1.suppliernam}</p>
-         <button type="button" className="btn btn-primary" onClick={() => navigateToInventory(project1._id)}>Update Info</button>
-         <button type="button" className="btn btn-primary ms-2" onClick={() => navigateToCompleteTask(project1._id)}>Complete Task</button>
+         <button type="button" className="btn btn-primary" onClick={() => navigateToInventory(project1._id)}>Update Info</button><br></br><br></br>
+
+        <i>Check Me for complete Task </i><input type="checkbox" onClick={checkboxClick}></input> 
+
+         <button type="button" className="btn btn-primary ms-2" onClick={() => navigateToCompleteTask(project1._id)} disabled={disabled}>Complete Task</button>
          
        </div>
      </div>
