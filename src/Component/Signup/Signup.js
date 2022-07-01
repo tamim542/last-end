@@ -55,29 +55,29 @@ const handleForm=(event)=>{
         return;
     }else{
         createUserWithEmailAndPassword(email, password);
-       console.log("ko it is fine===",email);
-        // Name, Email, Mobile Number, Address, City, State, Country, Company Name, Occupation, Years of Experience
+    //    console.log("ko it is fine===",email);
+    //     // Name, Email, Mobile Number, Address, City, State, Country, Company Name, Occupation, Years of Experience
 
-        const name = event.target.name.value;
-      //  const email = event.target.email.value;
-        const phone = event.target.phone.value;
-        const address = event.target.address.value;
-        const city = event.target.city.value;
-        const state = event.target.state.value;
-        const country = event.target.country.value;
-        const companynam = event.target.companynam.value;
-        const occupation = event.target.occupation.value;
-        const experience = event.target.experience.value;
+    //     const name = event.target.name.value;
+    //   //  const email = event.target.email.value;
+    //     const phone = event.target.phone.value;
+    //     const address = event.target.address.value;
+    //     const city = event.target.city.value;
+    //     const state = event.target.state.value;
+    //     const country = event.target.country.value;
+    //     const companynam = event.target.companynam.value;
+    //     const occupation = event.target.occupation.value;
+    //     const experience = event.target.experience.value;
        
-        const item = {name, email, phone, address, city, state, country, companynam, occupation, experience };
-        fetch('http://localhost:5000/profiledoc', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(item)
-        })
+    //     const item = {name, email, phone, address, city, state, country, companynam, occupation, experience };
+    //     fetch('http://localhost:5000/profiledoc', {
+    //         method: 'POST',
+    //         headers: { 'Content-Type': 'application/json' },
+    //         body: JSON.stringify(item)
+    //     })
 
-            .then(response => response.json())
-            .then(data => console.log(data));
+    //         .then(response => response.json())
+    //         .then(data => console.log(data));
 
             event.target.reset();
     }
@@ -108,39 +108,7 @@ const handleForm=(event)=>{
                 <br/>
                 <input onBlur={handleEmailField} type="email" name='email' id='email-form' required/>
                 <br/>
-                <span>Mobile Number</span>
-                <br/>
-                <input  type="text" name='phone' id='email-form' required/>
-                <br/>
-                <span>Address</span>
-                <br/>
-                <input  type="text" name='address' id='email-form' required/>
-                <br/>
-                <span>City</span>
-                <br/>
-                <input  type="text" name='city' id='email-form' required/>
-                <br/>
-                <span>State</span>
-                <br/>
-                <input  type="text" name='state' id='email-form' required/>
-                <br/>
-                <span>Country</span>
-                <br/>
-                <input  type="text" name='country' id='email-form' required/>
-                <br/>
-                <span>Company Name</span>
-                <br/>
-                <input  type="text" name='companynam' id='email-form' required/>
-                <br/>
-                <span>Occupation</span>
-                <br/>
-                <input  type="text" name='occupation' id='email-form' required/>
-                <br/>
-                <span>Years of Experience</span>
-                <br/>
-                <input  type="number" name='experience' id='email-form' required/>
-                <br/>
-                
+              
                 <span>password</span>
                 <br/>
                 

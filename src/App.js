@@ -10,6 +10,7 @@ import CompleteTask from './Component/CompleteTask/CompleteTask';
 import ToDoList from './Component/ToDoList/ToDoList';
 import Calender from './Component/Calender/Calender';
 import AddTask from './Component/AddTask/AddTask';
+import UpdateMyInfo from './Component/ToDoList/UpdateMyInfo';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/completetask" element={<CompleteTask />} />
         <Route path="/todolist" element={<ToDoList />} />
         <Route path="/calender" element={<Calender />} />
+        <Route path="/todolist/updatemyinfo/:id" element={<UpdateMyInfo></UpdateMyInfo>}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         
