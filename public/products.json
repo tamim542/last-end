@@ -1,0 +1,60 @@
+[
+    {
+        "email":"sagor@gmail.com",
+        "projectname": "Inventory Management System",
+        "description": "• To Develop this Project is used a Protected Route for Myitem, Inventory, Additem page • For Authentication used Google Firebase and React Firebase Hooks • Email Verification and Reset Password and For SignIn Provide two Method Email Password and Google SignIn Method",
+        "category": "MERN",
+        "start":"12 May, 2022",
+	    "end":"14 May, 2022",
+	    "notes":"React.js, Node.js, MongoDB"        
+
+    },
+    {
+        "email":"sagor@gmail.com",
+        "projectname": "Product Management System",
+        "description": "• To Develop this Project is used a Protected Route for Purchase page and For this project is used Nested Route for DashBoard • For Authentication used Google Firebase and React Firebase Hooks • An Admin can make another admin from user For SignIn Provide two Method Email Password and Google SignIn Method",
+        "category": "MERN",
+        "start":"22 May, 2022",
+	    "end":"28 May, 2022",
+	    "notes":"HTML, CSS, Tailwind , DaisyUI, React.js, Node.js, MongoDB"
+        
+    },
+    {
+        "email":"sagor@gmail.com",
+        "projectname": "Photography Services Website",
+        "description": "• To develop this project is used a Protected Route for checkOut page • For SignIn Provide two Method Email Password and Google SignIn Method • Responsive Mobile and Desktop for Home page and For Deploy use Netlify Hosting",
+        "category": "Front-end Web",
+        "start":"01 May, 2022",
+	    "end":"03 May, 2022",
+	    "notes":"HTML, CSS, Bootstrap, React-Bootstrap, React.js, Firebase"
+    },
+    {
+        "email":"sontan@gmail.com",
+        "projectname": "Car Reviews Website",
+        "description": "• To develop this project is used React.js Framework • This is car review website everyone can review their product • Who gives their product review their profile will show on the homepage and For Deploy use Netlify Hosting",
+        "category": "Front-end",
+        "start":"20 April, 2022",
+	    "end":"22 April, 2022",
+	    "notes":"HTML, CSS, Bootstrap React.js"
+    },
+    {
+        "email":"sontan@gmail.com",
+        "projectname": "Online Shop",
+        "description": "• To develop this project is used React.js Framework • Loaded Data from Api, You can order multiple Product and show add to card • From multiple products If you want to selecte one then You can randomly choose one.",
+        "category": "Front-end Web",
+        "start":"15 April, 2022",
+	    "end":"17 April, 2022",
+	    "notes":"HTML, CSS, Bootstrap, React.js"
+    },
+    {
+        "email":"sontan@gmail.com",
+        "projectname": "Phone Searching",
+        "description": "• To develop this project is used JavaScript • Loaded Data from Api, You can order multiple Product and show add to card • From multiple products If you want to selecte one then You can randomly choose one.",
+        "category": "JavaScript Api Baised",
+        "start":"13 March, 2022",
+	    "end":"15 March, 2022",
+	    "notes":"HTML, CSS, BOOTstrap, JavaScript" 
+    }
+    
+    
+]
